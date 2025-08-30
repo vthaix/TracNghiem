@@ -1,0 +1,96 @@
+header {
+    padding-top: 20px;
+}
+
+.container-fluid {
+    width: 2000px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.menu li {
+    min-height: 100px;
+    height: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a {
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu li:hover {
+    background-color: rgb(255, 228, 192);
+}
+
+.textQuestion {
+    border: 1px solid red;
+    border-radius: 10px;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 300px;
+    width: 1500px;
+    max-width: 1300px;
+}
+
+section .botAnswer {
+    margin-top: 50px;
+}
+
+.answer {
+    min-height: 130px;
+    max-height: 130px;
+    width: 600px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxAnswer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightAnswerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftAnswerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quest {
+    font-size: 40px;
+}
+
+.answer p {
+    font-size: 35px;
+}
+
+.countQuest {
+    font-size: 30px;
+}
+
+.finished {
+    font-size: 60px;
+}
